@@ -1,0 +1,24 @@
+# MindEcho Project .gitignore
+# Clean setup for FastAPI + Streamlit + FAISS + Ollama-based journaling app
+
+# ─────────────── Python ───────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ─────────────── Environments ───────────────
+.venv/
+venv/
+.env
+.env.*
+
+# ─────────────── Local data / models ───────────────
+.data/
+*.faiss
+*.npy
+*.sqlite
+
+# ─────────────── OS / Editor ───────────────
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,30 @@
+# --- Core backend ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# --- Data & vector search ---
+numpy==1.26.4
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.0.1
+scikit-learn==1.5.1
+pandas==2.2.2
+python-dateutil==2.9.0.post0
+
+# --- HTTP & API communication ---
+requests==2.32.3
+httpx==0.27.2
+
+# --- Local LLM (Ollama via OpenAI SDK) ---
+openai==1.43.0   # Used to call Ollama through OpenAI-compatible API
+# Ollama itself must be installed manually from https://ollama.ai/download
+# (not pip-installable — it's a local service the app connects to)
+
+# --- Frontend ---
+streamlit==1.38.0
+
+# --- Optional / development helpers ---
+langchain==0.2.11
+tiktoken==0.7.0
+pydantic-settings==2.4.0
