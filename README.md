@@ -99,3 +99,8 @@ python-dotenv==1.0.1
 > Ollama must be installed separately → [https://ollama.ai](https://ollama.ai)
 
 ---
+
+## License
+This project is licensed under the [MIT License](./LICENSE).
+
+---
